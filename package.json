@@ -4,7 +4,12 @@
   "description": "Just a boilerplate for building a library with TS + Github action for testing and releasing",
   "main": "build/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup -c",
+    "build:watch": "rollup -cw",
+    "lint": "echo \"Error: no command specified\" && exit 1",
+    "lint:fix": "echo \"Error: no command specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:watch": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -26,5 +31,11 @@
   "bugs": {
     "url": "https://github.com/theoomoregbee/rollup-typescript-lib-starter/issues"
   },
-  "homepage": "https://github.com/theoomoregbee/rollup-typescript-lib-starter#readme"
+  "homepage": "https://github.com/theoomoregbee/rollup-typescript-lib-starter#readme",
+  "devDependencies": {
+    "rollup": "^2.46.0",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "tslib": "^2.2.0",
+    "typescript": "^4.2.4"
+  }
 }
