@@ -1,0 +1,30 @@
+{
+  "name": "rollup-typescript-lib-starter",
+  "version": "1.0.0",
+  "description": "Just a boilerplate for building a library with TS + Github action for testing and releasing",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theoomoregbee/rollup-typescript-lib-starter.git"
+  },
+  "keywords": [
+    "rollup",
+    "typescript",
+    "ts",
+    "starter",
+    "boilerplate",
+    "github",
+    "action",
+    "release",
+    "library"
+  ],
+  "author": "Theophilus Omoregbee <theo4u@ymail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theoomoregbee/rollup-typescript-lib-starter/issues"
+  },
+  "homepage": "https://github.com/theoomoregbee/rollup-typescript-lib-starter#readme"
+}
