@@ -16,7 +16,8 @@ Configured with:
 - Use `package.json` `name` field as the name of the library when bundling for browsers
 - type definition is exposed via `types` field in `package.json`
 - `main` entry point field within `package.json` targets the bundled distribution
-  > Note: update `main` and `types` when build directory is changed.
+
+> Note: update `main` and `types` when build directory is changed.
 
 ## Github Actions Test workflow
 

@@ -8,5 +8,11 @@ export default {
     format: 'umd',
     name
   },
-  plugins: [typescript()]
+  plugins: [typescript({
+    tsconfigOverride: {
+      compilerOptions: { rootDir: './lib' },
+      include: ['lib/**/*'],
+      exclude: ['tests/**/*']
+    }
+  })]
 }
