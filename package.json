@@ -6,9 +6,9 @@
   "scripts": {
     "build": "rollup -c",
     "build:watch": "rollup -cw",
-    "lint": "echo \"Error: no command specified\" && exit 1",
-    "lint:fix": "echo \"Error: no command specified\" && exit 1",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "ts-standard",
+    "lint:fix": "ts-standard --fix",
+    "test": "yarn lint",
     "test:watch": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -35,6 +35,7 @@
   "devDependencies": {
     "rollup": "^2.46.0",
     "rollup-plugin-typescript2": "^0.30.0",
+    "ts-standard": "^10.0.0",
     "tslib": "^2.2.0",
     "typescript": "^4.2.4"
   }
