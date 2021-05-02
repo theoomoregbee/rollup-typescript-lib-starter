@@ -1,3 +1,5 @@
+[![Build Status - GitHub Actions][gha-badge]][gha-ci]
+
 # rollup-typescript-lib-starter
 
 Just a boilerplate for building a library with TS + Github action for testing.
