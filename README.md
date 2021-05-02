@@ -52,3 +52,7 @@ Automatically fixes any lint errors encountered.
 ### `yarn build:watch`
 
 Run [build script](#yarn-build) in watch mode.
+
+
+[gha-badge]: https://github.com/theoomoregbee/rollup-typescript-lib-starter/actions/workflows/test.yml/badge.svg
+[gha-ci]: https://github.com/theoomoregbee/rollup-typescript-lib-starter/actions/workflows/test.yml
