@@ -9,7 +9,7 @@ Configured with:
 - [StandardJs](https://standardjs.com/) linter and formatter
 - [Mocha](https://mochajs.org/) with [Chai](https://www.chaijs.com/) for unit testing
 - Simple example of TypeScript code and unit test
-- [Github Actions](https://github.com/features/actions) Test workflwo
+- [Github Actions](https://github.com/features/actions) Test workflow
 
 ## Build Configuration
 
